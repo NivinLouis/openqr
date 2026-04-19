@@ -210,7 +210,7 @@ export default function Home() {
   const [imageMargin, setImageMargin] = useState(6)
   const [logoImage, setLogoImage] = useState('')
 
-  const [exportFilename, setExportFilename] = useState('openqr-glass')
+  const [exportFilename, setExportFilename] = useState('openqr-image')
   const [showTemplateModal, setShowTemplateModal] = useState(false)
   const [dataType, setDataType] = useState<DataType>('url')
   const [templateState, setTemplateState] = useState<TemplateState>(DEFAULT_TEMPLATE_STATE)
@@ -463,7 +463,7 @@ export default function Home() {
     setMargin(8)
     setImageMargin(6)
     setLogoImage('')
-    setExportFilename('openqr-glass')
+    setExportFilename('openqr-image')
     setStatusMessage('Everything’s fresh and ready')
   }
 
@@ -842,7 +842,7 @@ export default function Home() {
                             className="glass-input"
                             value={exportFilename}
                             onChange={(event) => setExportFilename(event.target.value)}
-                            placeholder="openqr-glass"
+                            placeholder="openqr-image"
                           />
                         </div>
                         <div>
