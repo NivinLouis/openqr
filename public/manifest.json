@@ -1,7 +1,7 @@
 {
-  "name": "MiniQR",
-  "short_name": "MiniQR",
-  "description": "Free QR Code Generator",
+  "name": "OpenQR | Nivin P Louis",
+  "short_name": "OpenQR",
+  "description": "OpenQR is a free QR code generator for direct links and instant downloads, developed by Nivin P Louis.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
